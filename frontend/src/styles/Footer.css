@@ -1,0 +1,153 @@
+footer {
+  padding: 64px 24px 12px 24px;
+  background-color: transparent;
+  color: white;
+  margin: 120px 0 0 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(183, 164, 145, 0.9),
+    rgba(183, 164, 145, 0.4)
+  );
+  width: 100vw;
+  border-top: 2px solid var(--main-color);
+}
+
+.logo-img {
+  width: 104px;
+}
+
+.footer-main-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.fa-solid {
+  margin-right: 12px;
+  color: var(--main-color);
+}
+
+.fa-location-dot {
+  padding-left: 3px;
+  margin-right: 14px;
+}
+
+.social-media-h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.tel-nr:hover,
+.mail:hover {
+  color: var(--main-lighter-color);
+}
+
+.all-rights-reserved {
+  font-size: 16px;
+  padding-top: 16px;
+  margin: 32px auto 0 auto;
+  text-align: center;
+  border-top: 1px dotted var(--main-lighter-color);
+  font-style: italic;
+  width: 30%;
+}
+
+@media only screen and (max-width: 1320px) {
+  .all-rights-reserved {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo-img {
+    width: 80px;
+  }
+
+  .contact-h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .social-media-h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+}
+
+.cynology-logo-footer {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .logo-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .footer-main-part {
+    flex-direction: column;
+  }
+
+  .social-media-h2 {
+    margin-top: 64px;
+  }
+
+  .all-rights-reserved {
+    margin-top: 48px;
+  }
+
+  .footer-contact-data {
+    text-align: center;
+  }
+
+  .all-rights-reserved {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cynology-logo-footer img {
+    width: 100%;
+  }
+
+  .cynology-logo-footer {
+    display: block;
+    width: 80px;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  footer {
+    margin-top: 80px;
+  }
+
+  .social-media-h2,
+  .contact-h2 {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .all-rights-reserved {
+    width: 100%;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,111 @@
+.photo-description-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-direction: column;
+}
+
+.main-photo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 8px auto 0 auto;
+  overflow: hidden;
+}
+
+.main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.main-photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  background-image: linear-gradient(
+    to top right,
+    rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.25)
+  );
+}
+
+.main-sentence p {
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.breeding-name {
+  font-weight: 600;
+}
+
+.main-quote {
+  font-size: 32px;
+  text-align: center;
+  display: block;
+  margin-top: 64px;
+  font-style: italic;
+  border-top: 1px solid var(--main-color);
+  padding-top: 64px;
+  color: var(--main-lighter-color);
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 1600px) {
+  .photo-description-div {
+    flex-direction: column;
+  }
+
+  .main-photo {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-sentence p {
+    font-size: 32px;
+  }
+
+  .main-quote {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .main-photo {
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-sentence p {
+    font-size: 24px;
+  }
+
+  .main-quote {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-sentence {
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main-sentence p {
+    font-size: 16px;
+  }
+
+  .main-quote {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,87 @@
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 56px;
+  position: relative;
+}
+
+.detail-container {
+  width: 30%;
+  background-color: var(--hamburger-menu-background);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.shows-gallery-photo,
+.daily-gallery-photo {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1/1;
+  display: block;
+}
+
+.gallery-sentence {
+  margin: 16px 0;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.gallery-photo-div {
+  position: relative;
+}
+
+.gallery-photo-div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.detail-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  background-color: var(--main-color);
+}
+
+.detail-container:hover .gallery-photo-div::after {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.detail-container:hover .gallery-photo-div::after {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-width: 1000px) {
+  .gallery-sentence {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .gallery-sentence {
+    padding: 0 16px;
+    font-size: 16px;
+  }
+
+  .gallery-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .detail-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .gallery-sentence {
+    font-size: 12px;
+  }
+}

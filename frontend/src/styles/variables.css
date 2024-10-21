@@ -1,0 +1,11 @@
+:root {
+  --main-color: rgba(53, 25, 7, 0.95);
+  --main-lighter-color: rgba(65, 31, 8, 0.7);
+  --main-color-hamburger-button: rgba(65, 31, 8, 1);
+  --title-color: rgba(126, 106, 10, 0.8);
+  --lineage-button: rgb(226, 191, 10);
+  --main-color-hamburger-button-lighter: rgb(99, 47, 8);
+  --shows-container-background: rgba(255, 255, 255, 0.3);
+  --hamburger-menu-background: rgba(22, 10, 1, 1);
+  --details-button-font-color: rgb(225, 214, 187);
+}

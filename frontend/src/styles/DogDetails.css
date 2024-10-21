@@ -1,0 +1,160 @@
+.dog-details-main-div {
+  text-align: center;
+  position: relative;
+  padding-bottom: 48px;
+}
+
+.dog-details-above-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dog-details-fullname {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 64px;
+}
+
+.dog-details-name {
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.dog-details-title {
+  font-size: 32px;
+  padding: 4px 0;
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.dog-details-main-photo {
+  width: 100%;
+  margin: 24px auto 0 auto;
+}
+
+.dog-details-image {
+  object-fit: cover;
+  object-position: center;
+  width: 80%;
+  height: auto;
+}
+
+.detail-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.details-below-img {
+  width: 80%;
+  margin: 0 auto 24px auto;
+}
+
+.details-below-img p {
+  font-size: 24px;
+  padding: 12px 0;
+}
+
+.detail-test {
+  padding: 2px 12px !important;
+}
+
+.detail-test:first-of-type {
+  margin-top: 8px;
+}
+
+.dog-type {
+  color: var(--title-color);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.details-button {
+  display: block;
+  margin: 48px auto;
+  width: 300px;
+  padding: 12px;
+  font-size: 24px;
+  background-color: var(--main-color-hamburger-button);
+  color: var(--details-button-font-color);
+  outline: none;
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.details-button:hover {
+  cursor: pointer;
+  background-color: var(--main-color-hamburger-button-lighter);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .dog-details-fullname,
+  .dog-details-name,
+  .dog-details-title {
+    font-size: 24px;
+  }
+
+  .detail-title {
+    font-size: 16px;
+  }
+
+  .details-below-img p {
+    font-size: 16px;
+  }
+
+  .details-button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .details-button {
+    width: 250px;
+    margin: 32px auto;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .dog-details-fullname,
+  .dog-details-name,
+  .dog-details-title {
+    font-size: 20px;
+  }
+
+  .details-button {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .dog-details-fullname,
+  .dog-details-name,
+  .dog-details-title {
+    font-size: 16px;
+  }
+
+  .detail-title {
+    font-size: 12px;
+  }
+
+  .details-below-img p {
+    font-size: 12px;
+  }
+
+  .details-below-img,
+  .dog-details-above-img {
+    padding: 0 12px;
+  }
+
+  .details-button {
+    font-size: 12px;
+    padding: 8px;
+    margin: 24px auto;
+  }
+
+  .details-button {
+    width: 150px;
+  }
+}

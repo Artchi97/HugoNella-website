@@ -1,0 +1,146 @@
+.contact-container {
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 64px;
+}
+
+.breed-owners {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.contact-info {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  color: var(--hamburger-menu-background);
+}
+
+.contact-details {
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.phone-number,
+.email-address {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.phone-number a,
+.email-address a {
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.phone-number a:hover,
+.email-address a:hover {
+  color: var(--hamburger-menu-background);
+}
+
+.phone-number span,
+.email-address span {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.contact-photo {
+  width: 40%;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.map {
+  width: 70%;
+  height: 400px;
+  margin: 32px auto;
+}
+
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-title {
+    font-size: 24px;
+  }
+
+  .breed-owners {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    font-size: 16px;
+  }
+
+  .contact-details {
+    font-size: 16px;
+  }
+
+  .phone-number,
+  .email-address {
+    font-size: 16px;
+  }
+
+  .map {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .contact-container {
+    margin-top: -16px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .contact-container {
+    padding: 0 12px;
+  }
+
+  .contact-photo {
+    width: 70%;
+  }
+  .map {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-photo {
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .contact-title {
+    font-size: 16px;
+  }
+
+  .breed-owners {
+    font-size: 12px;
+  }
+
+  .contact-info {
+    font-size: 12px;
+  }
+
+  .contact-details {
+    font-size: 12px;
+  }
+
+  .phone-number,
+  .email-address {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,96 @@
+.shows-section {
+  position: relative;
+  padding-bottom: 32px;
+  margin-top: 64px;
+}
+
+.show-container {
+  width: 50%;
+  margin: 24px auto 24px auto;
+  padding: 24px 24px 48px 24px;
+  text-align: center;
+  border-bottom: 1px dotted var(--title-color);
+}
+
+.show-container:last-of-type {
+  border-bottom: none;
+}
+
+.show-name {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--title-color);
+}
+
+.show-titles {
+  font-weight: bold;
+}
+
+.show-place,
+.show-date,
+.show-judge,
+.show-opinion {
+  color: black;
+}
+
+.shows-title {
+  display: block;
+  margin-top: 48px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1700px) {
+  .show-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .show-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .show-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .show-container {
+    width: 90%;
+  }
+
+  .show-name {
+    font-size: 20px;
+  }
+  .shows-title {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .show-container {
+    width: 100%;
+    margin: 24px auto 8px auto;
+    padding: 24px;
+  }
+  .show-name {
+    font-size: 16px;
+  }
+  .shows-title {
+    font-size: 24px;
+  }
+
+  .show-place,
+  .show-date,
+  .show-judge,
+  .show-opinion {
+    font-size: 12px;
+  }
+}

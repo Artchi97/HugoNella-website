@@ -1,0 +1,132 @@
+.feed-container {
+  width: 100%;
+  font-size: 24px;
+  padding: 0 24px;
+  box-shadow: 2px 2px 5px black;
+  color: #e2d6c3;
+}
+
+.feed-main-title {
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 80px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.new-feed-container {
+  max-width: 100%;
+  min-height: 250px;
+  position: relative;
+  padding: 32px 32px 72px 32px;
+  border-top: 2px dashed var(--main-lighter-color);
+}
+
+.new-feed-container:first-child {
+  border-top: none;
+}
+
+.description-photo-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 32px;
+}
+
+.feed-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.feed-date {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-style: italic;
+  color: var(--hamburger-menu-background);
+}
+
+.feed-content {
+  color: var(--hamburger-menu-background);
+}
+
+.feed-photo {
+  max-width: 30%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media only screen and (max-width: 900px) {
+  .feed-main-title {
+    font-size: 40px;
+  }
+
+  .new-feed-container {
+    padding: 24px 24px 64px 24px;
+  }
+
+  .feed-date {
+    font-size: 16px;
+  }
+
+  .feed-title {
+    font-size: 24px;
+  }
+
+  .feed-content {
+    font-size: 16px;
+  }
+
+  .description-photo-div {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .feed-photo {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .new-feed-container {
+    padding: 16px 16px 48px 16px;
+  }
+
+  .feed-content {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .feed-main-title {
+    font-size: 32px;
+  }
+
+  .new-feed-container {
+    padding: 12px 12px 32px 12px;
+  }
+
+  .feed-title {
+    font-size: 16px;
+  }
+
+  .feed-date {
+    font-size: 16px;
+    top: 8px;
+    right: 0;
+  }
+
+  .feed-content {
+    font-size: 12px;
+  }
+
+  .feed-photo {
+    max-width: 60%;
+  }
+}

@@ -1,0 +1,146 @@
+.our-dogs-image-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.dog-main-container {
+  width: 40%;
+}
+
+.dog-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  transition: box-shadow 0.3s;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.dog-main-image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  /* object-position: center; */
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+
+.dog-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: background-color 0.3s;
+}
+
+.dog-container:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.dog-container:hover::after {
+  background-color: transparent;
+}
+
+.dog-title {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.dog-official-name {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.dog-name {
+  text-align: center;
+  font-size: 24px;
+  margin: 8px 0 48px 0;
+}
+
+.h2-retired {
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  border-top: 3px dotted var(--main-lighter-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .dog-main-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h2-retired {
+    font-size: 32px;
+    margin-bottom: 48px;
+    padding-top: 64px;
+  }
+
+  .dog-main-container:nth-last-child(1) .dog-name {
+    margin-bottom: 16px;
+  }
+
+  .dog-title,
+  .dog-official-name,
+  .dog-name {
+    font-size: 16px;
+  }
+
+  .our-dogs-image-container {
+    gap: 12px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .dog-main-container {
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .h2-retired {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .our-dogs-image-container {
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .h2-retired {
+    margin-bottom: 32px;
+    padding-top: 48px;
+  }
+
+  .dog-title,
+  .dog-official-name,
+  .dog-name {
+    padding: 0 12px;
+    font-size: 12px;
+  }
+}

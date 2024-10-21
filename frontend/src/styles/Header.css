@@ -1,0 +1,181 @@
+header {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(102, 57, 23, 0.85),
+    rgba(183, 171, 145, 0)
+  );
+
+  width: 100vw;
+}
+
+.whole-div-content {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.header-img {
+  width: 160px;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.header-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title h2,
+.header-title p {
+  text-align: center;
+}
+
+.header-title h2 {
+  margin-bottom: 8px;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.header-title p {
+  font-style: italic;
+  font-size: 20px;
+  color: var(--main-lighter-color);
+}
+
+.cynology-logo {
+  width: 160px;
+}
+
+.cynology-logo img {
+  width: 100%;
+}
+
+.languages {
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+.active-language {
+  color: rgb(177, 161, 127);
+  background-color: rgba(134, 84, 37, 0.5);
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.languages span {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+  .header-img {
+    width: 100px;
+  }
+
+  .cynology-logo {
+    width: 100px;
+  }
+  .header-title h2 {
+    font-size: 48px;
+  }
+
+  .header-title p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .whole-div-content {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-img {
+    width: 80px;
+  }
+
+  .header-title p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whole-div-content {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-title h2 {
+    font-size: 32px;
+  }
+
+  .whole-div-content {
+    width: 100%;
+    padding: 24px 24px;
+  }
+  .cynology-logo {
+    width: 80px;
+  }
+
+  .languages {
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-img {
+    width: 60px;
+  }
+
+  .cynology-logo {
+    display: none;
+  }
+
+  .languages {
+    font-size: 12px;
+    top: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .header-img {
+    width: 40px;
+  }
+
+  .header-title h2 {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .header-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .header-title h2 {
+    font-size: 20px;
+  }
+
+  .header-title p {
+    font-size: 10px;
+  }
+}
