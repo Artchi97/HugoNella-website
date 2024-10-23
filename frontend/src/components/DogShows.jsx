@@ -17,7 +17,7 @@ function normalizeDate(dateStr) {
 
 function parseDate(dateStr) {
   const [day, month, year] = dateStr.split(".");
-  return new Date(`${year}-${month}-${day}`);
+  return new Date(`${day}-${month}-${year}`);
 }
 
 export default function DogShows({ showsData }) {
