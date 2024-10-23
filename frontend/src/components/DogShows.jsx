@@ -17,7 +17,7 @@ function normalizeDate(dateStr) {
 
 function parseDate(dateStr) {
   const [day, month, year] = dateStr.split(".");
-  return new Date(`${year}-${month}=${day}`);
+  return new Date(`${year}-${month}-${day}`);
 }
 
 export default function DogShows({ showsData }) {
@@ -32,7 +32,7 @@ export default function DogShows({ showsData }) {
   const sortedShows = filteredShows.sort((a, b) => {
     const dateA = normalizeDate(a[4]);
     const dateB = normalizeDate(b[4]);
-    return dateA - dateB;
+    return dateB - dateA;
   });
 
   return (
