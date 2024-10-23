@@ -32,7 +32,7 @@ export default function DogShows({ showsData }) {
   const sortedShows = filteredShows.sort((a, b) => {
     const dateA = normalizeDate(a[4]);
     const dateB = normalizeDate(b[4]);
-    return dateB - dateA;
+    return dateA - dateB;
   });
 
   return (
