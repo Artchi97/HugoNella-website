@@ -22,8 +22,8 @@ export default function Feed() {
               <div className="description-photo-div">
                 <p className="feed-content">
                   {language === "pl"
-                    ? `${feed.feedTitle}`
-                    : `${feed.feedTitleEng}`}
+                    ? `${feed.description}`
+                    : `${feed.descriptionEng}`}
                 </p>
                 <img
                   src={feed.photo}
