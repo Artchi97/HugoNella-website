@@ -5,7 +5,7 @@ import Feed from "./Feed";
 import mainPhoto from "../assets/MainPage.jpg";
 import { useFadeIn } from "../customHooks/useFadeIn";
 
-export default function MainPage({ feedData }) {
+export default function MainPage() {
   const isVisible = useFadeIn();
   const { translation } = useContext(LanguageContext);
 
@@ -26,7 +26,7 @@ export default function MainPage({ feedData }) {
           </span>
         </div>
       </div>
-      <Feed feedData={feedData} />
+      <Feed />
     </>
   );
 }

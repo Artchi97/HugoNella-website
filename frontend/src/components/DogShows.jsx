@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { LanguageContext } from "../LanguageContext";
 import BackButton from "./BackButton";
 import { useFadeIn } from "../customHooks/useFadeIn";
+import { dogShows } from "../shows";
 
 function normalizeDate(dateStr) {
   if (dateStr.includes("-")) {
@@ -20,18 +21,17 @@ function parseDate(dateStr) {
   return new Date(`${year}-${month}-${day}`);
 }
 
-export default function DogShows({ showsData }) {
+export default function DogShows() {
   const isVisible = useFadeIn();
 
   const { dogName } = useParams();
   const { translation, language } = useContext(LanguageContext);
 
-  const rows = Array.isArray(showsData?.values) ? showsData.values : [];
-  const filteredShows = rows.filter((row) => row[1] === dogName);
+  const filteredShows = dogShows.filter((show) => show.dogName === dogName);
 
   const sortedShows = filteredShows.sort((a, b) => {
-    const dateA = normalizeDate(a[4]);
-    const dateB = normalizeDate(b[4]);
+    const dateA = normalizeDate(a.showDate);
+    const dateB = normalizeDate(b.showDate);
     return dateB - dateA;
   });
 
@@ -44,23 +44,25 @@ export default function DogShows({ showsData }) {
         sortedShows.map((show, index) => (
           <div key={index} className="show-container">
             <h3 className="show-name">
-              {language === "pl" ? `${show[2]}` : `${show[7]}`}
+              {language === "pl" ? `${show.showName}` : `${show.showNameEng}`}
             </h3>
             <p className="show-place">
               <span className="show-titles">{translation.dogShows.place}</span>
-              {`${show[3]}`}
+              {`${show.showPlace}`}
             </p>
             <p className="show-date">
               <span className="show-titles">{translation.dogShows.date}</span>
-              {` ${show[4]}`}
+              {` ${show.showDate}`}
             </p>
             <p className="show-judge">
               <span className="show-titles">{translation.dogShows.judge}</span>
-              {`${show[5]}`}
+              {`${show.showJudge}`}
             </p>
             <p className="show-opinion">
               <span className="show-titles">{translation.dogShows.rate}</span>
-              {language === "pl" ? `${show[6]}` : `${show[8]}`}
+              {language === "pl"
+                ? `${show.showDescription}`
+                : `${show.showDescriptionEng}`}
             </p>
           </div>
         ))

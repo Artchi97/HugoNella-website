@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import Modal from "./Modal";
 import BackButton from "./BackButton";
 import { useFadeIn } from "../customHooks/useFadeIn";
+import { litters } from "../litters";
 
 export default function Litters({ littersData }) {
   const isVisible = useFadeIn();
@@ -13,11 +14,10 @@ export default function Litters({ littersData }) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeLitterPhotos, setActiveLitterPhotos] = useState([]);
   const { translation } = useContext(LanguageContext);
-  const littersContent = Array.isArray(littersData?.values)
-    ? littersData.values
-    : [];
 
-  const filteredLitters = littersContent.filter((litter) => litter[7] === type);
+  const filteredLitters = litters.filter(
+    (litter) => litter.litterStatus === type
+  );
 
   function handleOpenModal(photos, index) {
     setActiveLitterPhotos(photos);
@@ -63,32 +63,32 @@ export default function Litters({ littersData }) {
         </h2>
         {filteredLitters.length > 0 ? (
           filteredLitters.map((litter) => {
-            const photos = litter[6] ? litter[6].split(",") : [];
+            const photos = litter.litterPhotos;
 
             return (
-              <div className="litter-container" key={litter[0]}>
-                <h2 className="litter-h2">{litter[1]}</h2>
+              <div className="litter-container" key={litter.id}>
+                <h2 className="litter-h2">{litter.litterName}</h2>
                 <div className="litter-main-img-container">
                   <img
-                    src={litter[5]}
+                    src={litter.litterMainPhoto}
                     alt="plakat miotu"
                     className="main-img"
                     loading="lazy"
-                    onClick={() => handleMainImgClick(litter[5])}
+                    onClick={() => handleMainImgClick(litter.litterMainPhoto)}
                   />
                 </div>
-                <p className="litter-date">{litter[2]}</p>
+                <p className="litter-date">{litter.litterDate}</p>
                 <p className="parent-litter">
                   <span className="parent-litter-title">
                     {translation.littersSection.mother}
                   </span>
-                  {litter[3]}
+                  {litter.mother}
                 </p>
                 <p className="parent-litter">
                   <span className="parent-litter-title">
                     {translation.littersSection.father}
                   </span>
-                  {litter[4]}
+                  {litter.father}
                 </p>
                 <div className="litter-gallery">
                   {photos.map((photo, index) => (
@@ -100,7 +100,7 @@ export default function Litters({ littersData }) {
                       <img
                         className="litter-photo"
                         src={photo}
-                        alt={litter[1]}
+                        alt={litter.litterName}
                         loading="lazy"
                       />
                     </div>
