@@ -17,7 +17,7 @@ export default function MainPage() {
         }`}
       >
         <div className="main-photo">
-          <img src={mainPhoto} alt="Teddy" loading="lazy" />
+          <img src={mainPhoto} alt="Teddy" />
         </div>
         <div className="main-sentence">
           {translation.main.description}
