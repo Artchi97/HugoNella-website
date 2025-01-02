@@ -20,11 +20,15 @@ export default function Feed() {
               </h2>
               <p className="feed-date">{feed.date}</p>
               <div className="description-photo-div">
-                <p className="feed-content">
-                  {language === "pl"
-                    ? `${feed.description}`
-                    : `${feed.descriptionEng}`}
-                </p>
+                <p
+                  className="feed-content"
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      language === "pl"
+                        ? feed.description
+                        : feed.descriptionEng,
+                  }}
+                />
                 <img
                   src={feed.photo}
                   alt={feed.feedTitle}
