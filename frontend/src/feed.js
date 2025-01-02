@@ -1,7 +1,7 @@
 export const feedData = [
   {
     id: 1,
-    date: "30.12.2024",
+    date: "14.12.2024",
     feedTitle: "Krajowa Wystawa Psów Rasowych - Świebodzice",
     description:
       "Tradycyjnie na koniec roku pojechaliśmy na Krajową Wystawę Psów Rasowych do Świebodzic, organizowanej przez oddział Wałbrzych 😊 <br /><br /> Sędzia: Joanna Dąbrowska <br /><br />🥇Passion of my life INDIA/ Frida- klasa championów, ocena doskonała, lokata 1 CWC- Zwycięzca Rasy/ BOB😁🏆 <br />🥇 SWEET TEDDY HugoNella- klasa pośrednia, ocena doskonała, lokata 1 CWC- Zwycięzca Płci Przeciwnej/ BOS 😁🏆 <br />🥇RIVER HugoNella - klasa młodzieży, ocena doskonała, lokata 1- Zwycięzca Młodzieży oraz Najlepszy Junior w Rasie - tym samym Piesek Pawła rozpoczyna starania o Młodzieżowego Championa  Polski 😁🏆",

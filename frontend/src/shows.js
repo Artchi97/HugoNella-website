@@ -722,10 +722,10 @@ export const dogShows = [
     showDate: "19.07.2024",
     showJudge: "Tomasz Kliś (PL)",
     showDescription:
-      "kl. Posrednia, ocena doskonała, lokata 1 - CWC, Najlepszy Dorosły Pies, Zwycięzca asy - BOB",
+      "kl. Posrednia, ocena doskonała, lokata 1 - CWC, Najlepszy Dorosły Pies, Zwycięzca Rasy - BOB",
     showNameEng: "National Hunting Dog Show",
     showDescriptionEng:
-      "Intermediate class, excellent, 1st place - CWC, Best Adult Dog, Winner of the Ace - BOB",
+      "Intermediate class, excellent, 1st place - CWC, Best Adult Dog, Winner of the Breed - BOB",
   },
   {
     id: 61,
@@ -790,5 +790,44 @@ export const dogShows = [
     showNameEng: "55th Autumn Dog Show",
     showDescriptionEng:
       "Open class, excellent, 1/2 CWC - Best Adult Bitch and Winner of the Opposite Sex BOS",
+  },
+  {
+    id: 66,
+    dogName: "Frida",
+    showName: "Krajowa Wystawa Psów Rasowych",
+    showPlace: "Świebodzice / oddział Wałbrzych",
+    showDate: "14.12.2024",
+    showJudge: "Joanna Dąbrowska (PL)",
+    showDescription:
+      "kl. Championów, ocena doskonała, lokata 1 CWC- Zwycięzca Rasy / BOB",
+    showNameEng: "National Dog Show",
+    showDescriptionEng:
+      "Champion class, excellent, 1 CWC - Winner of the Breed / BOB",
+  },
+  {
+    id: 67,
+    dogName: "Teddy",
+    showName: "Krajowa Wystawa Psów Rasowych",
+    showPlace: "Świebodzice / oddział Wałbrzych",
+    showDate: "14.12.2024",
+    showJudge: "Joanna Dąbrowska (PL)",
+    showDescription:
+      "kl. Pośrednia, ocena doskonała, lokata 1 CWC - Zwycięzca Płci Przeciwnej / BOS",
+    showNameEng: "National Dog Show",
+    showDescriptionEng:
+      "Intermediate class, excellent, 1st place CWC - Best Opposite Sex / BOS",
+  },
+  {
+    id: 68,
+    dogName: "River",
+    showName: "Krajowa Wystawa Psów Rasowych",
+    showPlace: "Świebodzice / oddział Wałbrzych",
+    showDate: "14.12.2024",
+    showJudge: "Joanna Dąbrowska (PL)",
+    showDescription:
+      "kl. Młodzieży, ocena doskonała, lokata 1 - Zwycięzca Młodzieży oraz Najlepszy Junior w Rasie",
+    showNameEng: "National Dog Show",
+    showDescriptionEng:
+      "Youth class, excellent, 1st place - Youth Winner and Best Junior in Breed",
   },
 ];
