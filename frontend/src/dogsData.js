@@ -38,6 +38,7 @@ import Teddy5l from "./assets/teddy/Teddy5-large.jpg";
 import Teddy6l from "./assets/teddy/Teddy6-large.jpg";
 import Teddy7l from "./assets/teddy/Teddy7-large.jpg";
 import Teddy8l from "./assets/teddy/Teddy-diploma1.jpg";
+import Teddy9l from "./assets/teddy/Teddy8-large.jpeg";
 import River1l from "./assets/river/River1-large.jpg";
 import River2l from "./assets/river/River2-large.jpg";
 import River3l from "./assets/river/River3-large.jpg";
@@ -165,6 +166,68 @@ const dogsData = [
   },
 
   {
+    dogName: "Teddy",
+    fullName: "SWEET TEDDY HugoNella",
+    birthday: "30.12.2022r.",
+    parents: "Greenstone’s Earl Grey At Salt Creek & PRINCESS KORA HugoNella",
+    dogDesciption: "",
+    images: [
+      Teddy6l,
+      Teddy5l,
+      Teddy1l,
+      Teddy7l,
+      Teddy2l,
+      Teddy3l,
+      Teddy4l,
+      Teddy8l,
+      Teddy9l,
+    ],
+    tests: [
+      "HD-A",
+      "ED - 0/0",
+      "OCD - free",
+      "EIC - clear",
+      "CNM - clear",
+      "DM - clear",
+      "RD/OSD - clear",
+      "Prcd-PRA - clear",
+      "SD2 - clear",
+      "HNPK - carrier",
+      "Eebb - chocolate carrying yellow",
+      "Long coat - L/L",
+    ],
+    lineage: "http://www.k9data.com/pedigree.asp?ID=1286200",
+    status: "active",
+    titles: {
+      pl: ["Champion Polski Młodzieży"],
+      en: ["Youth Champion of Poland"],
+    },
+    type: {
+      pl: "Reproduktor",
+      en: "Sire",
+    },
+  },
+  {
+    dogName: "River",
+    fullName: "RIVER HugoNella",
+    birthday: "09.12.2023r.",
+    parents: "Play Mor DREAM CATCH HER & AIKA HugoNella",
+    dogDesciption: "",
+    images: [River1l, River2l, River3l, River4l],
+    tests: ["HD - A", "ED - 0/0", "OCD - free"],
+    lineage: "",
+    status: "active",
+    titles: {
+      pl: ["Champion Polski Szczeniąt"],
+      en: ["Puppy Champion of Poland"],
+    },
+    type: {
+      pl: "",
+      en: "",
+    },
+  },
+
+  {
     dogName: "Ana",
     fullName: "CHRISTMAS LITTLE ANGEL HugoNella",
     birthday: "25.12.2020r.",
@@ -204,66 +267,6 @@ const dogsData = [
     titles: {
       pl: ["Champion Polski"],
       en: ["Champion of Poland"],
-    },
-    type: {
-      pl: "",
-      en: "",
-    },
-  },
-  {
-    dogName: "Teddy",
-    fullName: "SWEET TEDDY HugoNella",
-    birthday: "30.12.2022r.",
-    parents: "Greenstone’s Earl Grey At Salt Creek & PRINCESS KORA HugoNella",
-    dogDesciption: "",
-    images: [
-      Teddy6l,
-      Teddy5l,
-      Teddy1l,
-      Teddy7l,
-      Teddy2l,
-      Teddy3l,
-      Teddy4l,
-      Teddy8l,
-    ],
-    tests: [
-      "HD-A",
-      "ED - 0/0",
-      "OCD - free",
-      "EIC - clear",
-      "CNM - clear",
-      "DM - clear",
-      "RD/OSD - clear",
-      "Prcd-PRA - clear",
-      "SD2 - clear",
-      "HNPK - carrier",
-      "Eebb - chocolate carrying yellow",
-      "Long coat - L/L",
-    ],
-    lineage: "http://www.k9data.com/pedigree.asp?ID=1286200",
-    status: "active",
-    titles: {
-      pl: ["Champion Polski Młodzieży"],
-      en: ["Youth Champion of Poland"],
-    },
-    type: {
-      pl: "Reproduktor",
-      en: "Sire",
-    },
-  },
-  {
-    dogName: "River",
-    fullName: "RIVER HugoNella",
-    birthday: "09.12.2023r.",
-    parents: "Play Mor DREAM CATCH HER & AIKA HugoNella",
-    dogDesciption: "",
-    images: [River1l, River2l, River3l, River4l],
-    tests: [],
-    lineage: "",
-    status: "active",
-    titles: {
-      pl: ["Champion Polski Szczeniąt"],
-      en: ["Puppy Champion of Poland"],
     },
     type: {
       pl: "",

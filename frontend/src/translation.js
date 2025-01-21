@@ -68,7 +68,7 @@ export const translation = {
     },
     plannedLittersSection: {
       title: "Planowane mioty",
-      lackOfLitters: "W tym momencie brak planowanych miotów.",
+      lackOfLitters: "W tym momencie brak planowanych miotów",
     },
     currentLittersSection: {
       title: "Aktualne mioty",
@@ -93,7 +93,8 @@ export const translation = {
     littersSection: {
       mother: "Matka: ",
       father: "Ojciec: ",
-      noPlannedLitters: "W tym momencie brak planowanych miotów",
+      noPlannedLitters:
+        "W połowie marca planujemy miot czarnych szczeniąt. Zainteresowanych nabyciem szczeniaka z naszej hodowli zapraszamy do wstępnej rezerwacji.",
       noCurrentLitters: "W tym momencie brak aktualnych miotów",
       noLitters: "Brak miotów do wyświetlenia",
     },
@@ -193,7 +194,8 @@ export const translation = {
     littersSection: {
       mother: "Mother: ",
       father: "Father: ",
-      noPlannedLitters: "There are no litters planned at this time.",
+      noPlannedLitters:
+        "In mid-March, we plan to have a litter of black puppies. Those interested in acquiring a puppy from our breeding are welcome to make a preliminary reservation.",
       noCurrentLitters: "There are no current litters at this time",
       noLitters: "No litters to display",
     },
