@@ -181,4 +181,15 @@ export const litters = [
     ],
     litterStatus: "previous",
   },
+  {
+    id: 13,
+    litterName: "Miot Frida i Olaf",
+    litterDate: "31.12.2016",
+    mother: "Passion of my life INDIA",
+    father: "Play Mor BUBBLE BLOWER",
+    litterMainPhoto:
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1739733300/ad19b77f-f3ce-4cbe-9ae8-f85445cbdaa0_k8zbbm.webp",
+    litterPhotos: [],
+    litterStatus: "planned",
+  },
 ];
