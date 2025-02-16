@@ -183,8 +183,8 @@ export const litters = [
   },
   {
     id: 13,
-    litterName: "Miot Frida i Olaf",
-    litterDate: "31.12.2016",
+    litterName: "Miot Fridy i Olafa",
+    litterDate: "",
     mother: "Passion of my life INDIA",
     father: "Play Mor BUBBLE BLOWER",
     litterMainPhoto:
