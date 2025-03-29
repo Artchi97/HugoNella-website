@@ -1,5 +1,17 @@
 export const feedData = [
   {
+    id: 3,
+    date: "25.03.2025",
+    feedTitle: "Szczenięta Fridy i Olafa są już z nami!",
+    description:
+      "Z ogromną radością informujemy, że w sobotę 15 marca na świat przyszło 10 czarnych szczeniąt rasy labrador retriever🖤 Mamy jeszcze dostępne szczenięta z tego miotu. <br /><br /> Rodzice miotu „L”: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
+    photo:
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1743279793/5e779ec6-bbdc-40d4-ad6f-58c5d369a75a_shgzvj.jpg",
+    feedTitleEng: "Frida and Olaf's puppies are already with us!",
+    descriptionEng:
+      "We are thrilled to announce that on Saturday, March 15th, 10 black Labrador Retriever puppies were born🖤 We still have puppies available from this litter. <br /><br /> Parents of the 'L' litter: <br /> s. Play Mor BUBBLE BLOWER (BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> d. ChPL Passion of my life INDIA (ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
+  },
+  {
     id: 2,
     date: "16.02.2025",
     feedTitle:
