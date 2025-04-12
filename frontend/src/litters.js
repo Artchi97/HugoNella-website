@@ -183,13 +183,19 @@ export const litters = [
   },
   {
     id: 13,
-    litterName: "Miot Fridy i Olafa",
-    litterDate: "",
+    litterName: 'Miot "L" - dostępne suczki',
+    litterDate: "15.03.2025",
     mother: "Passion of my life INDIA",
     father: "Play Mor BUBBLE BLOWER",
     litterMainPhoto:
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1739733300/ad19b77f-f3ce-4cbe-9ae8-f85445cbdaa0_k8zbbm.webp",
-    litterPhotos: [],
-    litterStatus: "planned",
+    litterPhotos: [
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438529/2160296a-afee-4311-853f-a2ff7f502951_dmyoy3.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438525/81460429-1637-4406-ad08-b70900d269a1_jpxk8h.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438521/d11789f8-4210-4c68-87f2-20cdc8f080c9_bqqzpv.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438516/dc61ef30-e91c-4a98-b309-fc234eda4a55_yxtkgs.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438511/bf8fb8cb-ab4a-4d1f-98f9-c297dd9ad09c_qutzop.jpg",
+    ],
+    litterStatus: "current",
   },
 ];
