@@ -199,8 +199,8 @@ const dogsData = [
     lineage: "http://www.k9data.com/pedigree.asp?ID=1286200",
     status: "active",
     titles: {
-      pl: ["Champion Polski Młodzieży"],
-      en: ["Youth Champion of Poland"],
+      pl: ["Champion Polski", "Champion Polski Młodzieży"],
+      en: ["Champion of Poland", "Youth Champion of Poland"],
     },
     type: {
       pl: "Reproduktor",
