@@ -1,15 +1,16 @@
 export const feedData = [
   {
     id: 3,
-    date: "25.03.2025",
-    feedTitle: "Szczenięta Fridy i Olafa są już z nami!",
+    date: "06.05.2025",
+    feedTitle: "Z Miotu Fridy i Olafa mamy jeszcze dostępne czarne suczki!",
     description:
-      "Z ogromną radością informujemy, że w sobotę 15 marca na świat przyszło 10 czarnych szczeniąt rasy labrador retriever🖤 Mamy jeszcze dostępne suczki z tego miotu. <br /><br /> Rodzice miotu „L”: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
+      "Informujemy, że z miotu Fridy i Olafa mamy jeszcze dostępne czarne suczki. Zachęcamy do rezerwacji! <br /><br /> Rodzice miotu „L”: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
     photo:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1743279793/5e779ec6-bbdc-40d4-ad6f-58c5d369a75a_shgzvj.jpg",
-    feedTitleEng: "Frida and Olaf's puppies are already with us!",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1746557419/94b46453-3610-4910-826e-80b2f4a2f70c_zid813.jpg",
+    feedTitleEng:
+      "From Frida and Olaf's litter, we still have black female puppies available!",
     descriptionEng:
-      "We are thrilled to announce that on Saturday, March 15th, 10 black Labrador Retriever puppies were born🖤 We still have bitches available from this litter. <br /><br /> Parents of the 'L' litter: <br /> s. Play Mor BUBBLE BLOWER (BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> d. ChPL Passion of my life INDIA (ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
+      "We would like to inform you that we still have black female puppies available from Frida and Olaf's 'L' litter. We encourage you to make a reservation! <br /><br /> Parents of the 'L' litter: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
   },
   {
     id: 2,
