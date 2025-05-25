@@ -39,6 +39,7 @@ import Teddy6l from "./assets/teddy/Teddy6-large.jpg";
 import Teddy7l from "./assets/teddy/Teddy7-large.jpg";
 import Teddy8l from "./assets/teddy/Teddy-diploma1.jpg";
 import Teddy9l from "./assets/teddy/Teddy8-large.jpeg";
+import Teddy10l from "./assets/teddy/Teddy8.jpg";
 import River1l from "./assets/river/River1-large.jpg";
 import River2l from "./assets/river/River2-large.jpg";
 import River3l from "./assets/river/River3-large.jpg";
@@ -181,6 +182,7 @@ const dogsData = [
       Teddy4l,
       Teddy8l,
       Teddy9l,
+      Teddy10l,
     ],
     tests: [
       "HD-A",
