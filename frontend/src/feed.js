@@ -1,30 +1,17 @@
 export const feedData = [
   {
-    id: 3,
-    date: "06.05.2025",
-    feedTitle: "Z Miotu Fridy i Olafa mamy jeszcze dostępne czarne suczki!",
-    description:
-      "Informujemy, że z miotu Fridy i Olafa mamy jeszcze dostępne czarne suczki. Zachęcamy do rezerwacji! <br /><br /> Rodzice miotu „L”: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
-    photo:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1746557419/94b46453-3610-4910-826e-80b2f4a2f70c_zid813.jpg",
-    feedTitleEng:
-      "From Frida and Olaf's litter, we still have black female puppies available!",
-    descriptionEng:
-      "We would like to inform you that we still have black female puppies available from Frida and Olaf's 'L' litter. We encourage you to make a reservation! <br /><br /> Parents of the 'L' litter: <br /> o.Play Mor BUBBLE BLOWER( BOSS GCh Quailchase Bearcreek Jolly Joe & Play Mor Bubble Bath With Costa Sterlina) <br /> m. ChPL Passion of my life INDIA ( ChPL ChHU Poland Winner ’23 ’24 Passion of my life DJANGO & ZODIACAL LIGHT z Grodu Hrabiego Malmesbury)",
-  },
-  {
     id: 2,
-    date: "16.02.2025",
+    date: "05.01.2026",
     feedTitle:
-      "W połowie marca 2025 spodziewamy się czarnych szczeniąt Fridy i Olafa!",
+      "W marcu 2026 spodziewamy się czarnych szczeniąt Fridy i Rivera!",
     description:
-      "Miło nam poinformować, że w połowie marca urodzą się czarne szczenieta Fridy i Olafa. Osoby zainteresowane nabyciem malucha z naszej hodowli zapraszamy do kontaktu pod numerem telefonu 727541233",
+      "Planujemy miot czarnych szczeniąt, które przyjdą na świat w marcu. Rodzicami zostaną Frida i River. Osoby zainteresowane rezerwacją szczeniaka zapraszamy do kontaktu.",
     photo:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1739733300/ad19b77f-f3ce-4cbe-9ae8-f85445cbdaa0_k8zbbm.webp",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1767617672/5f48d2b3-566d-4339-8a65-655bb9ca5fc2_rhsq70.jpg",
     feedTitleEng:
-      "We are expecting black puppies from Frida and Olaf in mid-March 2025!",
+      "In March 2026, we are expecting black puppies from Frida and River!",
     descriptionEng:
-      "We are pleased to inform you that in mid-March, Frida and Olaf's black puppies will be born. Those interested in acquiring a puppy from our breeding are welcome to contact us at the phone number 727541233.",
+      "We are planning a litter of black puppies expected to be born in March. The parents will be Frida and River. Those interested in reserving a puppy are welcome to get in touch.",
   },
   {
     id: 1,
