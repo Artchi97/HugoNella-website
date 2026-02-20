@@ -1,19 +1,5 @@
 export const feedData = [
   {
-    id: 2,
-    date: "05.01.2026",
-    feedTitle:
-      "W marcu 2026 spodziewamy się czarnych szczeniąt Fridy i Rivera!",
-    description:
-      "Planujemy miot czarnych szczeniąt, które przyjdą na świat w marcu. Rodzicami zostaną Frida i River. Osoby zainteresowane rezerwacją szczeniaka zapraszamy do kontaktu.",
-    photo:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1767617672/5f48d2b3-566d-4339-8a65-655bb9ca5fc2_rhsq70.jpg",
-    feedTitleEng:
-      "In March 2026, we are expecting black puppies from Frida and River!",
-    descriptionEng:
-      "We are planning a litter of black puppies expected to be born in March. The parents will be Frida and River. Those interested in reserving a puppy are welcome to get in touch.",
-  },
-  {
     id: 1,
     date: "14.12.2024",
     feedTitle: "Krajowa Wystawa Psów Rasowych - Świebodzice",
