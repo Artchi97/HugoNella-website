@@ -183,7 +183,7 @@ export const litters = [
   },
   {
     id: 13,
-    litterName: 'Miot "L" - dostępne suczki',
+    litterName: 'Miot "L"',
     litterDate: "15.03.2025",
     mother: "Passion of my life INDIA",
     father: "Play Mor BUBBLE BLOWER",
@@ -200,8 +200,7 @@ export const litters = [
   },
   {
     id: 14,
-    litterName:
-      "W połowie września urodzą się czarne szczenięta Fridy i Rivera!",
+    litterName: "Szczenięta Fridy i Rivera / River and Frida puppies",
     litterDate: "",
     mother: "Passion of my life INDIA",
     father: "RIVER HugoNella",
