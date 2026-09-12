@@ -13,10 +13,10 @@ export default function Litters({ littersData }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeLitterPhotos, setActiveLitterPhotos] = useState([]);
-  const { translation } = useContext(LanguageContext);
+  const { language, translation } = useContext(LanguageContext);
 
   const filteredLitters = litters.filter(
-    (litter) => litter.litterStatus === type
+    (litter) => litter.litterStatus === type,
   );
 
   function handleOpenModal(photos, index) {
@@ -31,13 +31,13 @@ export default function Litters({ littersData }) {
 
   function handleShowPreviousImage() {
     setActiveImageIndex((prevIndex) =>
-      prevIndex === 0 ? activeLitterPhotos.length - 1 : prevIndex - 1
+      prevIndex === 0 ? activeLitterPhotos.length - 1 : prevIndex - 1,
     );
   }
 
   function handleShowNextImage() {
     setActiveImageIndex((prevIndex) =>
-      prevIndex === activeLitterPhotos.length - 1 ? 0 : prevIndex + 1
+      prevIndex === activeLitterPhotos.length - 1 ? 0 : prevIndex + 1,
     );
   }
 
@@ -58,8 +58,8 @@ export default function Litters({ littersData }) {
           {type === "current"
             ? `${translation.currentLittersSection.title}`
             : type === "previous"
-            ? `${translation.previousLittersSection.title}`
-            : `${translation.plannedLittersSection.title}`}
+              ? `${translation.previousLittersSection.title}`
+              : `${translation.plannedLittersSection.title}`}
         </h2>
         {filteredLitters.length > 0 ? (
           filteredLitters.map((litter) => {
@@ -67,7 +67,7 @@ export default function Litters({ littersData }) {
 
             return (
               <div className="litter-container" key={litter.id}>
-                <h2 className="litter-h2">{litter.litterName}</h2>
+                <h2 className="litter-h2">{litter.litterName[language]}</h2>
                 <div className="litter-main-img-container">
                   <img
                     src={litter.litterMainPhoto}
@@ -100,7 +100,7 @@ export default function Litters({ littersData }) {
                       <img
                         className="litter-photo"
                         src={photo}
-                        alt={litter.litterName}
+                        alt={litter.litterName[language]}
                         loading="lazy"
                       />
                     </div>
@@ -114,8 +114,8 @@ export default function Litters({ littersData }) {
             {type === "current"
               ? `${translation.littersSection.noCurrentLitters}`
               : type === "planned"
-              ? `${translation.littersSection.noPlannedLitters}`
-              : "Brak miotów do wyświetlenia"}
+                ? `${translation.littersSection.noPlannedLitters}`
+                : "Brak miotów do wyświetlenia"}
           </div>
         )}
         <BackButton className="back-button" />

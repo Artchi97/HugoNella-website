@@ -1,7 +1,21 @@
 export const litters = [
   {
+    id: 14,
+    litterName: {
+      pl: "W połowie września urodzą się czarne szczeniata Fridy i Rivera!",
+      en: "In mid-September, Frida and River's black puppies will be born!",
+    },
+    litterDate: "",
+    mother: "Passion of my life INDIA",
+    father: "RIVER HugoNella",
+    litterMainPhoto:
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1789203211/9cde090e-4f9e-4c2b-96e1-c6881f8c8004_fidzkp.jpg",
+    litterPhotos: [],
+    litterStatus: "planned",
+  },
+  {
     id: 12,
-    litterName: 'Miot "O"',
+    litterName: { pl: 'Miot "O"', en: 'Litter "O"' },
     litterDate: "19.10.2024",
     mother: "CHRISTMAS LITTLE ANGEL HugoNella",
     father: "Play Mor BUBBLE BLOWER",
@@ -17,7 +31,7 @@ export const litters = [
   },
   {
     id: 1,
-    litterName: 'Miot "R"',
+    litterName: { pl: 'Miot "R"', en: 'Litter "R"' },
     litterDate: "09.12.2023",
     mother: "AIKA HugoNella",
     father: "Play Mor Dream Catch Her",
@@ -32,7 +46,7 @@ export const litters = [
   },
   {
     id: 2,
-    litterName: 'Miot "G"',
+    litterName: { pl: 'Miot "G"', en: 'Litter "G"' },
     litterDate: "14.05.2023",
     mother: "CHRISTMAS LITTLE ANGEL Hugonella",
     father: "Play Mor Dream Catch Her",
@@ -47,7 +61,7 @@ export const litters = [
   },
   {
     id: 3,
-    litterName: 'Miot "S"',
+    litterName: { pl: 'Miot "S"', en: 'Litter "S"' },
     litterDate: "30.12.2022",
     mother: "Princess KORA Hugonella",
     father: "Greenstone's Earl Grey At Salt Creek",
@@ -63,7 +77,7 @@ export const litters = [
   },
   {
     id: 4,
-    litterName: 'Miot "T"',
+    litterName: { pl: 'Miot "T"', en: 'Litter "T"' },
     litterDate: "08.07.2022",
     mother: "AIKA HugoNella",
     father: "NINO Sun In Their Eyes",
@@ -78,7 +92,7 @@ export const litters = [
   },
   {
     id: 5,
-    litterName: 'Miot "N"',
+    litterName: { pl: 'Miot "N"', en: 'Litter "N"' },
     litterDate: "23.11.2021",
     mother: "Princess KORA Hugonella",
     father: "Dead Flag Blues z Grodu Hrabiego Malmesbury",
@@ -93,7 +107,7 @@ export const litters = [
   },
   {
     id: 6,
-    litterName: 'Miot "B"',
+    litterName: { pl: 'Miot "B"', en: 'Litter "B"' },
     litterDate: "14.07.2021",
     mother: 'BUENA LADY z Alei Dębowej "Nella"',
     father: "Greenstone's Earl Grey At Salt Creek",
@@ -109,7 +123,7 @@ export const litters = [
   },
   {
     id: 7,
-    litterName: 'Miot "C"',
+    litterName: { pl: 'Miot "C"', en: 'Litter "C"' },
     litterDate: "25.12.2020",
     mother: "AIKA HugoNella",
     father: "Play Mor WORTH WAITING FOR",
@@ -124,7 +138,7 @@ export const litters = [
   },
   {
     id: 8,
-    litterName: 'Miot "K"',
+    litterName: { pl: 'Miot "K"', en: 'Litter "K"' },
     litterDate: "16.06.2020",
     mother: 'BUENA LADY z Alei Dębowej "Nella"',
     father: "Waterline's Black Tie",
@@ -139,7 +153,7 @@ export const litters = [
   },
   {
     id: 9,
-    litterName: 'Miot "P"',
+    litterName: { pl: 'Miot "P"', en: 'Litter "P"' },
     litterDate: "02.07.2019",
     mother: "AIKA HugoNella",
     father: "MADABOUT'S KISS IN MOTION",
@@ -154,7 +168,7 @@ export const litters = [
   },
   {
     id: 10,
-    litterName: 'Miot "D"',
+    litterName: { pl: 'Miot "D"', en: 'Litter "D"' },
     litterDate: "22.02.2017",
     mother: 'BUENA LADY z Alei Dębowej "Nella"',
     father: "Escudo EXTREME RAIN FOR DOLBIA",
@@ -169,7 +183,7 @@ export const litters = [
   },
   {
     id: 11,
-    litterName: 'Miot "A"',
+    litterName: { pl: 'Miot "A"', en: 'Litter "A"' },
     litterDate: "31.12.2016",
     mother: 'BUENA LADY z Alei Dębowej "Nella"',
     father: 'PlayMor So Much Mor "Rock"',
@@ -181,9 +195,10 @@ export const litters = [
     ],
     litterStatus: "previous",
   },
+
   {
     id: 13,
-    litterName: 'Miot "L"',
+    litterName: { pl: 'Miot "L"', en: 'Litter "L"' },
     litterDate: "15.03.2025",
     mother: "Passion of my life INDIA",
     father: "Play Mor BUBBLE BLOWER",
@@ -197,16 +212,5 @@ export const litters = [
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438511/bf8fb8cb-ab4a-4d1f-98f9-c297dd9ad09c_qutzop.jpg",
     ],
     litterStatus: "previous",
-  },
-  {
-    id: 14,
-    litterName: "Szczenięta Fridy i Rivera / River and Frida puppies",
-    litterDate: "",
-    mother: "Passion of my life INDIA",
-    father: "RIVER HugoNella",
-    litterMainPhoto:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1789203211/9cde090e-4f9e-4c2b-96e1-c6881f8c8004_fidzkp.jpg",
-    litterPhotos: [],
-    litterStatus: "planned",
   },
 ];
