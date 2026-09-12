@@ -2,7 +2,7 @@ export const litters = [
   {
     id: 14,
     litterName: {
-      pl: "W połowie września urodzą się czarne szczeniata Fridy i Rivera!",
+      pl: "W połowie września urodzą się czarne szczenięta Fridy i Rivera!",
       en: "In mid-September, Frida and River's black puppies will be born!",
     },
     litterDate: "",
@@ -12,6 +12,23 @@ export const litters = [
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1789203211/9cde090e-4f9e-4c2b-96e1-c6881f8c8004_fidzkp.jpg",
     litterPhotos: [],
     litterStatus: "planned",
+  },
+  {
+    id: 13,
+    litterName: { pl: 'Miot "L"', en: 'Litter "L"' },
+    litterDate: "15.03.2025",
+    mother: "Passion of my life INDIA",
+    father: "Play Mor BUBBLE BLOWER",
+    litterMainPhoto:
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1739733300/ad19b77f-f3ce-4cbe-9ae8-f85445cbdaa0_k8zbbm.webp",
+    litterPhotos: [
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438529/2160296a-afee-4311-853f-a2ff7f502951_dmyoy3.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438525/81460429-1637-4406-ad08-b70900d269a1_jpxk8h.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438521/d11789f8-4210-4c68-87f2-20cdc8f080c9_bqqzpv.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438516/dc61ef30-e91c-4a98-b309-fc234eda4a55_yxtkgs.jpg",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438511/bf8fb8cb-ab4a-4d1f-98f9-c297dd9ad09c_qutzop.jpg",
+    ],
+    litterStatus: "previous",
   },
   {
     id: 12,
@@ -192,24 +209,6 @@ export const litters = [
     litterPhotos: [
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1729165324/litterA3-large_rkoogi.jpg",
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1729165323/litterA2-large_bd0uj0.jpg",
-    ],
-    litterStatus: "previous",
-  },
-
-  {
-    id: 13,
-    litterName: { pl: 'Miot "L"', en: 'Litter "L"' },
-    litterDate: "15.03.2025",
-    mother: "Passion of my life INDIA",
-    father: "Play Mor BUBBLE BLOWER",
-    litterMainPhoto:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1739733300/ad19b77f-f3ce-4cbe-9ae8-f85445cbdaa0_k8zbbm.webp",
-    litterPhotos: [
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438529/2160296a-afee-4311-853f-a2ff7f502951_dmyoy3.jpg",
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438525/81460429-1637-4406-ad08-b70900d269a1_jpxk8h.jpg",
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438521/d11789f8-4210-4c68-87f2-20cdc8f080c9_bqqzpv.jpg",
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438516/dc61ef30-e91c-4a98-b309-fc234eda4a55_yxtkgs.jpg",
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438511/bf8fb8cb-ab4a-4d1f-98f9-c297dd9ad09c_qutzop.jpg",
     ],
     litterStatus: "previous",
   },

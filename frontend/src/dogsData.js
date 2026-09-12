@@ -212,7 +212,7 @@ const dogsData = [
   },
   {
     dogName: "River",
-    fullName: "RIVER HugoNella",
+    fullName: "RIVER HugoNella - reproduktor",
     birthday: "09.12.2023r.",
     parents: "Play Mor DREAM CATCH HER & AIKA HugoNella",
     dogDesciption: "",
