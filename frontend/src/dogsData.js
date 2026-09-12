@@ -207,15 +207,15 @@ const dogsData = [
     },
     type: {
       pl: "Reproduktor",
-      en: "Sire",
+      en: "Stud Dog",
     },
   },
   {
     dogName: "River",
-    fullName: "RIVER HugoNella - reproduktor",
+    fullName: "RIVER HugoNella",
     birthday: "09.12.2023r.",
     parents: "Play Mor DREAM CATCH HER & AIKA HugoNella",
-    dogDesciption: "",
+    dogDesciption: "Reproduktor",
     images: [River1l, River2l, River3l, River4l],
     tests: [
       "HD - A",
@@ -239,8 +239,8 @@ const dogsData = [
       en: ["Champion of Poland", "Puppy Champion of Poland"],
     },
     type: {
-      pl: "",
-      en: "",
+      pl: "Reproduktor",
+      en: "Stud Dog",
     },
   },
 
