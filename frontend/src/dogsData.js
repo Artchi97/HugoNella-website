@@ -188,6 +188,7 @@ const dogsData = [
       "HD-A",
       "ED - 0/0",
       "OCD - free",
+      "Eyes - clear ECVO",
       "EIC - clear",
       "CNM - clear",
       "DM - clear",
@@ -217,6 +218,10 @@ const dogsData = [
     dogDesciption: "",
     images: [River1l, River2l, River3l, River4l],
     tests: [
+      "HD - A",
+      "ED - 0/0",
+      "OCD - free",
+      "Eyes - clear ECVO",
       "EIC - clear",
       "CNM - clear",
       "HNPK - clear",
@@ -230,8 +235,8 @@ const dogsData = [
     lineage: "",
     status: "active",
     titles: {
-      pl: ["Champion Polski Szczeniąt"],
-      en: ["Puppy Champion of Poland"],
+      pl: ["Champion Polski", "Champion Polski Szczeniąt"],
+      en: ["Champion of Poland", "Puppy Champion of Poland"],
     },
     type: {
       pl: "",
