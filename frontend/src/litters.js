@@ -201,7 +201,7 @@ export const litters = [
   {
     id: 14,
     litterName:
-      "W połowie września urodzą się czarne szczeniata Fridy i Rivera!",
+      "W połowie września urodzą się czarne szczenięta Fridy i Rivera!",
     litterDate: "",
     mother: "Passion of my life INDIA",
     father: "RIVER HugoNella",
