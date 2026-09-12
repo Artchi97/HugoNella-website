@@ -196,6 +196,18 @@ export const litters = [
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438516/dc61ef30-e91c-4a98-b309-fc234eda4a55_yxtkgs.jpg",
       "https://res.cloudinary.com/dueuqywlb/image/upload/v1744438511/bf8fb8cb-ab4a-4d1f-98f9-c297dd9ad09c_qutzop.jpg",
     ],
-    litterStatus: "current",
+    litterStatus: "previous",
+  },
+  {
+    id: 14,
+    litterName:
+      "W połowie września urodzą się czarne szczeniata Fridy i Rivera!",
+    litterDate: "",
+    mother: "Passion of my life INDIA",
+    father: "RIVER HugoNella",
+    litterMainPhoto:
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1789203211/9cde090e-4f9e-4c2b-96e1-c6881f8c8004_fidzkp.jpg",
+    litterPhotos: [],
+    litterStatus: "planned",
   },
 ];
