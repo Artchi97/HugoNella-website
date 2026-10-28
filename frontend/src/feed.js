@@ -1,15 +1,16 @@
 export const feedData = [
   {
     id: 1,
-    date: "01.09.2026",
+    date: "25.10.2026",
     feedTitle:
-      "We wrześniu spodziewamy się czekoladowych oraz czarnych szczeniąt!",
+      "Dostępne czarne szczenięta do odbioru w drugiej połowie listopada 2026!",
     description:
-      "Miło nam poinformować, że we wrześniu 2026 spodziewamy się narodzin czarnych i czekoladowych szczeniąt. Jeśli jesteś zainteresowany rezerwacją szczeniaka z naszej hodowli, zapraszamy do kontaktu mailowego lub telefonicznego.",
+      "Nadal mamy dostępne czarne szczenięta, które będą do odbioru w drugiej połowie listopada 2026r. Zainteresowanych rezerwacją malucha prosimy o kontakt pod nr telefonu 727-541-233.",
     photo:
-      "https://res.cloudinary.com/dueuqywlb/image/upload/v1789202656/2b9806a7-e033-4e36-9afd-b79ff3a7167c_bjauxo.jpg",
-    feedTitleEng: "We expect chocolate and black puppies in September!",
+      "https://res.cloudinary.com/dueuqywlb/image/upload/v1793161653/d12858f8-2867-472d-b243-4a2c9446522d_y8mwxp.jpg",
+    feedTitleEng:
+      "Black puppies available for collection in the second half of November 2026",
     descriptionEng:
-      "We are delighted to announce that we are expecting the arrival of black and chocolate Labrador puppies in September 2026. If you are interested in reserving a puppy from our kennel, we invite you to contact us by email or phone.",
+      "We still have black puppies available, ready to go to their new homes in the second half of November 2026! If you are interested in reserving a puppy, please contact us at +48 727 541 233.",
   },
 ];
